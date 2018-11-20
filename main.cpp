@@ -6,12 +6,12 @@
 
 // Data Structure and Functions are separated into header file to easily maintain.
 // Reference were passed as an argument to not duplicate.
-#include "LinkedList.h"
-#include "Functions.h"
-
 #include <iostream>
 #include <sstream>
 #include <fstream>
+
+#include "LinkedList.h"
+#include "Functions.h"
 
 // main function
 int main() {
