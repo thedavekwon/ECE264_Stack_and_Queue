@@ -52,7 +52,7 @@ public:
 
     bool checkPop();
 
-    virtual T top() {};
+    virtual T top() = 0;
 
     std::string getName();
 };
